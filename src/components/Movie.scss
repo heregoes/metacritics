@@ -1,0 +1,83 @@
+.movie {
+    left: 248px;
+    display: flex;
+    margin-bottom: 2.3rem;
+
+    &-title {
+        color: black;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;  
+    }
+
+    &-poster {
+        width: 145px;
+        height: 215px;
+        position: relative;
+        right: 0;
+        float: left;
+    }
+    
+    &-info {
+        color: #999999;
+        position: relative;
+        float: left;
+        margin-left: 3rem;
+        margin-top: 1.5rem;
+       vertical-align: center;
+    }
+    
+    &-rating {
+        width: 46px;
+        height: 47px;
+        left: 463px;
+        margin-top: 1rem;
+        float: left;
+        margin-left: 5rem;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    
+    &-rating span {
+        font-size: 10px;
+        text-transform: uppercase;
+        padding: 0;
+        display: block;
+        margin-top: -15px;
+    }
+    
+    &-time {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 11px;
+        margin-bottom: 19px;
+    
+        div {
+            display: inline-block;
+            margin-right: 1rem;
+        }
+    }
+    
+    
+    &-plot {
+        width: 491px;
+        height: 103px;
+        left: 545px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        color: #666666;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}

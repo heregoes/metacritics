@@ -1,0 +1,48 @@
+.header {
+    position: relative;
+    width: 131px;
+    left: 248px;
+    top: 35px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 43px;
+    margin-bottom: 73px;
+
+    &-sub {
+        position: relative;
+        margin-top: 35px;
+        left: 248px;
+        width: 178px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 39px;
+        margin-bottom: 47px;
+        color: black;
+    }
+}
+
+.container {
+    position: relative;
+    width: 945px;
+    left: 248px;
+    margin-bottom: 3rem;
+}
+
+.seeAllBtn {
+    color: #28B0DB;
+    background: none;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 1135px;
+    top: 135px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
